@@ -1,7 +1,7 @@
-From 2a291e5f7626d87f04b6a60c45a09f203d77dcb7 Mon Sep 17 00:00:00 2001
+From 99217f0fa84a1d06d9fa1e0c6ec9bff0afb16ae5 Mon Sep 17 00:00:00 2001
 From: Abhay Krishna Arunachalam <arnchlm@amazon.com>
 Date: Thu, 9 Mar 2023 16:05:22 -0800
-Subject: [PATCH 13/19] Use tar.gz extension for CNI plugins tarball
+Subject: [PATCH 13/24] Use tar.gz extension for CNI plugins tarball
 
 Signed-off-by: Abhay Krishna Arunachalam <arnchlm@amazon.com>
 ---

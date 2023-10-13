@@ -258,10 +258,6 @@ func validateOSHypervisorCombinations(os, hypervisor string) error {
 		return fmt.Errorf("Invalid OS type. Only redhat OS is supported for CloudStack")
 	}
 
-	if hypervisor == builder.Nutanix && os != builder.Ubuntu {
-		return fmt.Errorf("Invalid OS type. Only ubuntu OS is supported for Nutanix")
-	}
-
 	if hypervisor == builder.AMI && os != builder.Ubuntu {
 		return fmt.Errorf("Invalid OS type. Only ubuntu OS is supported for AMI")
 	}
